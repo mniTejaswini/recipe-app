@@ -1,0 +1,28 @@
+# Virtual environment
+backend/venv/
+
+# Environment variables
+backend/.env
+
+# Python cache
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# React node_modules
+frontend/node_modules/
+
+# React build output
+frontend/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# Ignore project instruction file
+Recipe Finder - Run Instructions.txt
+
+

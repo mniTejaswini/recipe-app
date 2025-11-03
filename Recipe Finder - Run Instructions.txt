@@ -1,0 +1,51 @@
+Recipe Finder — Run Instructions
+🚀 How to Start the Project (After Setup)
+🧠 Step 1: Start the Flask Backend
+
+Open a terminal in VS Code and run:
+
+cd backend
+.\venv\Scripts\activate
+python app.py
+
+
+✅ Flask backend will start on → http://localhost:5000
+
+🧠 Step 2: Start the React Frontend
+
+Open a new terminal in VS Code and run:
+
+cd frontend
+npm start
+
+
+✅ React frontend will open on → http://localhost:3000
+
+⚙️ Optional Commands (Only If Needed)
+
+If you ever reset or reinstall your project:
+
+# Backend setup again (only once)
+cd backend
+python -m venv venv
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\venv\Scripts\activate
+pip install -r requirements.txt
+
+
+If node modules were deleted:
+
+cd frontend
+npm install
+
+🧩 Notes
+
+Keep both terminals running while using the app.
+
+Don’t close backend until you finish testing.
+
+If you get “Not Found” error → make sure Flask is running properly on port 5000.
+
+To stop servers:
+
+Press Ctrl + C in each terminal.
